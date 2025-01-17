@@ -31,3 +31,23 @@ The `Lor.py` script simulates the Lorenz system with different initial condition
    - **Difference Between \(X(t)\)**: Plots the difference between the reference and perturbed \(X(t)\)
    - **RMSE Plots**: RMSE comparison for different perturbations
    - **Final Table**: Displays the times when RMSE exceeds 0.5 for each perturbation
+
+## 2. **Ensemble.py: Ensemble Analysis of the Lorenz System**
+
+### Overview
+
+The `Ensemble.py` script performs an ensemble analysis on the Lorenz system by running multiple simulations with different initial conditions and analyzing the statistical properties of the system.
+
+### Key Steps
+
+1. **Imports and Setup**: Similar to `Lor.py`, the script imports necessary libraries and sets up the Lorenz system parameters and initial conditions.
+
+2. **Ensemble Runs**: The system is run multiple times with varied initial conditions. The results from all runs are collected in an ensemble.
+
+3. **Statistical Analysis**: The script calculates and visualizes the statistical properties of the ensemble, such as the mean and standard deviation of the system's variables.
+
+4. **Visualization**: The script generates various plots to analyze the spread of the ensemble, including:
+   - **Ensemble Mean and Standard Deviation**: Plots showing the mean and standard deviation of the ensemble for each variable over time.
+   - **Ensemble Scatter Plots**: Visualizing the spread of the system's states in phase space.
+
+
